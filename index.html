@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .container, #contact {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 20px;
+        }
+        .project {
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        padding: 20px;
+        box-shadow: 0px 0px 5px white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <div class="container">
+            <img src= "./assets/profile.jpg" alt="Profile Photo">
+            <h1>Matthew Johnson</h1>
+            <p style="font-family: 'Courier New', Courier, monospace; color: cadetblue">Web Developer</p>
+            <p></p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src= "./assets/project1.png" alt="Project 1">
+                <h3>Project 1 - SE 319 webpage</h3>
+                <p>The first project is related to develop a single Web page using
+                only two technologies: HTML and CSS. The project consists in
+                creating a single web page with a menu at the top know as
+                Navigation Bar. We have to include text describing ourself and
+                text describing the project. Additionally, we need to include
+                two images: one image is of ourself and second image is anything
+                related to the project itself.</p>
+            </div>
+            <div class="project">
+                <img src= "./assets/CrewBot.png" alt="CrewBot Logo">
+                <h3>Project 2 - CrewBot (Discord API bot)</h3>
+                <p>This project consisted of a web server utilizing Express via
+                Node.js, along with using Discord.js to interact with Discord's API.
+                It used information fed to it about a given round of Among Us to
+                automatically handle muting and deafening players inside of Discord, 
+                as well as adding extra game depth by changing how some players were deafened.
+                It used JavaScript for the server, and primarily JS for the front end
+                with some HTML. The original version used Processing.js to render
+                everything, but the more recent versions instead relied more
+                on heavily-styled HTML instead. The project used WebSockets for
+                communication between the client and server.<br><br>
+                <a href="https://glitch.com/edit/#!/crewbot-discord">View source</a></p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>You can reach me at <a href="mailto:haeleon@iastate.edu">haeleon@iastate.edu</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Matthew Johnson</p>
+    </footer>
+</body>
+</html>
